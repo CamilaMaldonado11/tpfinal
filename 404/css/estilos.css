@@ -1,0 +1,74 @@
+.copas{
+	background: #EA2027;
+	overflow: hidden;
+
+}
+
+.copas img{
+	animation-name: copas;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+
+}
+
+@keyframes copas{
+from{transform: translateX(-1100px);}
+to{transform: translateX(1350px);}
+}
+
+
+body{
+	background: rgb(78,78,78);
+background: linear-gradient(146deg, rgba(78,78,78,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+.Gallardo{
+	position: relative;
+	left: 0px;
+	padding-top: 50px;
+	animation-name: Gallardo;
+	animation-duration: 1s;
+}
+
+@keyframes Gallardo{
+from{transform: translateX(-1100px);}
+to{transform: translateX(0px);}
+}
+
+.error{
+	padding-top: 170px;
+	text-align: center;
+}
+
+.error h1 {
+	font-family: myriad-pro, sans-serif;
+	font-size: 85px;
+	animation-name: error;
+	animation-duration: 1s;
+}
+
+
+.error h3 { 
+	font-family: 'Roboto', sans-serif;
+	font-size: 50px;
+	animation-name: error;
+	animation-duration: 1s;
+ }
+
+@keyframes error{
+from{transform: translateX(1100px);}
+to{transform: translateX(-0px);}
+}
+
+ .error button{
+ 	font-family: 'Poppins', sans-serif;
+ 	background: #7f8c8d;
+ 	font-size: 25px;
+ 	margin-top: 25px;
+ 	padding: 5px 24px;
+ 	transition: 1s;
+ }
+
+ .error button:hover{
+ 	transform: translate(0px,10px);
+ }
